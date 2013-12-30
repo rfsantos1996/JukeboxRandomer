@@ -1,0 +1,12 @@
+name: JukeboxRandomer
+version: 0.1
+author: rfsantos1996
+main: com.jabyftw.jbr.JukeboxRandomer
+description: Config and get a random item from a jukebox
+permissions:
+   jukebox.use:
+     description: Allow you to use the jukebox
+     default: true
+   jukebox.bypass:
+     description: Allow you to bypass the delay
+     default: op
