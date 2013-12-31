@@ -47,6 +47,7 @@ public class JukeboxRandomer extends JavaPlugin implements Listener {
         config.addDefault("lang.inventoryTitle", "&6Random Jukebox");
         config.addDefault("cooldown.testing", System.currentTimeMillis());
         config.options().copyDefaults(true);
+        configYML.saveCustomConfig();
         saveConfig();
         reloadConfig();
         try {
